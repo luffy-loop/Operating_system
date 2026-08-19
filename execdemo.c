@@ -1,16 +1,15 @@
 #include <stdio.h>
-#include <stdlib.h>
 #include <unistd.h>
 
 int main()
 {
-    char *args[] = {"ls", "-l", NULL};
+    char *args[] = {"./Hello", NULL};
 
-    printf("Before execvp()\n");
-    printf("About to replace this process\n");
+    printf("About to replace this image\n");
 
     execvp(args[0], args);
 
+    // Only reached if execvp() fails
     perror("execvp failed");
 
     return 1;
