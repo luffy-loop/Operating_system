@@ -40,9 +40,12 @@ int main()
 
     char buffer[100];
 
-    read(fd, buffer, sizeof(buffer));
+    int n = read(fd, buffer, sizeof(buffer));
 
-    printf("[Process B] Received: %s\n", buffer);
+    if (n > 0)
+    {
+        printf("[Process B] Received: %s\n", buffer);
+    }
 
     close(fd);
 
