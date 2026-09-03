@@ -1,3 +1,9 @@
+# Compiled OS lab executables
 cmd_exec
 fileread
-process_stage2
+processA
+processB
+reader
+sharedmem
+simplepipe
+pipe_dup2
