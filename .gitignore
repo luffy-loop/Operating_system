@@ -11,3 +11,4 @@ process_stage2
 sharedmem_sem
 dynamic_memory
 memory_segments
+dmademo
