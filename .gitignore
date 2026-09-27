@@ -12,3 +12,4 @@ sharedmem_sem
 dynamic_memory
 memory_segments
 dmademo
+read_write
