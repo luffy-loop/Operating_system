@@ -13,3 +13,4 @@ dynamic_memory
 memory_segments
 dmademo
 read_write
+file_write
