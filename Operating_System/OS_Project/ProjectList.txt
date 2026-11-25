@@ -1,0 +1,5 @@
+Week 1: REPL Loop, getline(), Clean exit on Ctrl+D / exit
+Week 2: Argument Lexer & Tokenizer using strtok()
+Week 3: Command Structure Organizer using Command struct
+Week 4: Process execution via fork(), execvp(), and waitpid()
+Week 5: Built-in command execution using cd and chdir()
