@@ -36,7 +36,9 @@ ShellForge/
 
 ## How to Compile and Run
 
-All programs can be compiled individually with GCC.
+Build the latest milestone with `make` and run `./shellforge`. Use `make milestones` to compile all five versions into `build/`, and `make clean` to remove generated outputs.
+
+All programs can also be compiled individually with GCC.
 
 ### Week 1
 ```bash
