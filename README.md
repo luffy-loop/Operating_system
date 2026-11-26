@@ -7,7 +7,7 @@ A collection of hands-on **Operating Systems** and **Computer Networks** coursew
 | Area | Contents |
 | --- | --- |
 | [Operating Systems labs](Operating_System/lab/) | Individual C exercises covering process creation, file system calls, IPC, memory, and signals |
-| [Weekly OS labwork](Operating_System/labwork/) | Week-by-week C practice programs, supporting text files, and some compiled executables |
+| [Weekly OS labwork](Operating_System/labwork/) | Week-by-week C practice programs, and supporting text files |
 | [OS class programs](Operating_System/class_programs/) | Classroom examples of pipes, shared memory, semaphores, and file operations |
 | [ShellForge project](Operating_System/OS_Project/) | Five stages of a Unix-like command-line shell written in C |
 | [Computer Networks Lab 01](Computer_Networks/Lab/Lab_01/) | Cisco Packet Tracer `.pkt` activity and screenshots |
@@ -80,13 +80,13 @@ Some programs read or write files, create IPC resources, or require multiple ter
 
 ```bash
 cd Operating_System/OS_Project
-gcc -Wall -Wextra -std=gnu99 src/week5_navigation.c -o shellforge
+make
 ./shellforge
 ```
 
 Try commands such as `pwd`, `ls`, `cd ..`, and `exit` inside the shell.
 
-**Makefile note:** The current `Makefile` builds the *week 1* source (`src/week1_repl.c`), rather than the week 5 implementation. To try the full milestone progression, compile the desired source file explicitly as shown above.
+Use `make milestones` to build all five standalone versions into `build/`, or `make clean` to remove generated outputs.
 
 ### Open the networking lab
 
@@ -117,7 +117,7 @@ Open `Computer_Networks/Lab/Lab_01/lab1.pkt` in Cisco Packet Tracer and refer to
 
 ## Notes
 
-This is a **learning and coursework repository**, not a production-ready shell or networking toolkit. Programs are intended to illustrate OS concepts and may not include automated tests or production-level input validation. The repository currently contains some compiled lab executables alongside their sources.
+This is a **learning and coursework repository**, not a production-ready shell or networking toolkit. Programs are intended to illustrate OS concepts and may not include automated tests or production-level input validation. Generated lab executables are ignored; compile the retained C sources locally.
 
 ---
 
