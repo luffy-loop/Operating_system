@@ -14,3 +14,12 @@ memory_segments
 dmademo
 read_write
 file_write
+
+# Generated build artifacts
+*.o
+*.out
+*.exe
+/Operating_System/labwork/week[0-9]
+/Operating_System/labwork/week[0-9][0-9]
+/Operating_System/OS_Project/shellforge
+/Operating_System/OS_Project/build/
